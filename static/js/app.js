@@ -98,7 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
       var response = JSON.parse(xhr.responseText);
       if (response.success) {
         link.textContent = response.files[0].url.replace(/.*?:\/\//g, '');
-        link.href = response.files[0].url;
+		link.href = response.files[0].url;
         url.appendChild(link);
         var copy = document.createElement('button');
         copy.className = 'upload-clipboard-btn';
