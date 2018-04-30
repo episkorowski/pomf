@@ -99,7 +99,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (response.success) {
         link.textContent = response.files[0].url.replace(/.*?:\/\//g, '');
 		link.href = response.files[0].url;
-        url.appendChild(link);
+       url.appendChild(link);
         var copy = document.createElement('button');
         copy.className = 'upload-clipboard-btn';
         var glyph = document.createElement('img');
