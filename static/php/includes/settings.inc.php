@@ -79,7 +79,7 @@ define('POMF_FILES_LENGTH', 6);
  *
  * @param string POMF_URL URI with trailing delimiter
  */
-define('POMF_URL', 'files/');
+define('POMF_URL', 'http://185.10.68.86/files/');
 
 /**
  * URI for filename generation

@@ -18,7 +18,7 @@
 	"max_upload_size": 20,
 	"production": false,
 	"siteName": "test",
-	"siteUrl": "http://185.10.68.86",
+	"siteUrl": "",
 	"abuseContact": "connor@connor-maher.com",
 	"infoContact": "connor@connor-maher.com",
 	"paypalUrl": "",
