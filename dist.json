@@ -7,6 +7,7 @@
 	"banners": [
 		"banners/malware_scans.swig"
 		
+		
 	],
 	"src": [
 		"templates/index.swig",
@@ -17,10 +18,10 @@
 	"generateSitemap": false,
 	"max_upload_size": 20,
 	"production": false,
-	"siteName": "test",
-	"siteUrl": "",
-	"abuseContact": "connor@connor-maher.com",
-	"infoContact": "connor@connor-maher.com",
+	"siteName": "Awoo.Review",
+	"siteUrl": "http://awoo.review/",
+	"abuseContact": "awoocontact@protonmail.com",
+	"infoContact": "awoocontact@protonmail.com",
 	"paypalUrl": "",
 	"bitcoinAddress": "",
 	"flattrUrl": ""

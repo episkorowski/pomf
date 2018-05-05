@@ -39,7 +39,7 @@ body {
   background-image: url('grill.php'), url('img/bg.png');
   background-position: 85% 100%, top left;
   background-repeat: no-repeat, repeat;
-  color: #333;
+  color: #FFFFFF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   height: 100%;
@@ -73,7 +73,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-  color: #005580;
+  color: white;
 }
 a:focus {
   outline: thin dotted #333;
@@ -142,9 +142,10 @@ a:focus {
   color: #AA4342;
 }
 .alert-info {
-  background-color: #D9EDF7;
-  border-color: #BCE8F1;
-  color: #167196;
+    
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /**
@@ -266,7 +267,7 @@ button.upload-clipboard-btn {
   vertical-align: middle;
 }
 .file-url a {
-  color: #5C5C5C;
+  color: white;
 }
 .file-url a:hover {
   color: #1C1C1C;
